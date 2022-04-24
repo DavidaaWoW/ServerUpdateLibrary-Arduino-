@@ -1,5 +1,6 @@
 ﻿#include "ServerUpdate.h"
 
+//Время в конструкторе умножается на 60000, чтобы в дальнейшем использовать минуты
 ServerUpdate::ServerUpdate(String type, String address, double time = 0)
 {
 	this->type = type;
